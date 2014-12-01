@@ -11,7 +11,7 @@ Configuration
 
 Edit the configuration section of ga2csv.php:
 
-* Set the email and password you use for GA.
+* Set the email and password you use for GA. If you are using 2-step authentication, then you should generate an app-specific password. See here: https://support.google.com/mail/answer/1173270?hl=en. (Only takes 1 minute to set up.)
 * Edit start and end date.
 * $sites is an array of sites. You need to specify the GA table id. You can find this in the URL. For example, if the URL is https://www.google.com/analytics/web/?hl=en#report/visitors-overview/a48690296w77739914p81395189/ then 81395189 is the table id. Give the site a name - this will be used to name the CSV.
 
